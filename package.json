@@ -11,13 +11,13 @@
     "hot",
     "reload"
   ],
-  "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
+  "homepage": "https://github.com/arjunpola/GSTR1#readme",
   "bugs": {
     "url": "https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron-react-boilerplate/electron-react-boilerplate.git"
+    "url": "git+https://github.com/arjunpola/GSTR1.git"
   },
   "license": "MIT",
   "author": {
@@ -30,6 +30,11 @@
       "name": "Amila Welihinda",
       "email": "amilajack@gmail.com",
       "url": "https://github.com/amilajack"
+    },
+    {
+      "name": "Nagarjun Pola",
+      "email": "arjun.pola@gmail.com",
+      "url": "https://github.com/arjunpola"
     }
   ],
   "main": "./src/main/main.ts",
@@ -171,8 +176,8 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "GSTR1",
+    "appId": "org.erb.gstr1",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
@@ -230,8 +235,8 @@
     ],
     "publish": {
       "provider": "github",
-      "owner": "electron-react-boilerplate",
-      "repo": "electron-react-boilerplate"
+      "owner": "arjunpola",
+      "repo": "GSTR1"
     }
   },
   "collective": {
