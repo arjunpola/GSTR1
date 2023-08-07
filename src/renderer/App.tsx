@@ -118,11 +118,23 @@ function GetFileUploader() {
 
   return (
     <div className="Container">
-      <div {...getRootProps()}>
-        <p>Drag and drop some files here!</p>
+      <div
+        {...getRootProps()}
+        style={{
+          borderStyle: 'dotted',
+          borderWidth: 1,
+          borderColor: 'black',
+          borderRadius: 5,
+          padding: 48,
+        }}
+      >
+        <p>DROP JSON FILE HERE!</p>
       </div>
-      <Link to="/results" style={{ color: loaded ? 'blue' : 'gray' }}>
-        See Results
+      <Link
+        to="/results"
+        style={{ color: loaded ? 'blue' : 'gray', marginTop: '48px' }}
+      >
+        Results
       </Link>
     </div>
   );
